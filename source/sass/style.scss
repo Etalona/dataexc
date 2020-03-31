@@ -1,0 +1,85 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  background-color: #0052cc;
+  color: #ffffff;
+  margin: 0;
+  background-image: url("../img/logins_background.jpg");
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.logo-container {
+  width: 410px;
+  background-color: #0052cc;
+  padding: 65px 45px;
+  margin: 0 auto;
+  margin-top: 290px;
+  border-radius: 15px;
+}
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-form {
+  width: 100%;
+  & fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  & legend {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+}
+.input {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+}
+.input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.input::-moz-placeholder {
+  color: #ffffff;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  padding-left: 38px;
+  padding-right: 38px;
+  background-color: #46fbf4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #247df1;
+}
+.logo-link {
+  color: #ffffff;
+  &:hover {
+    text-decoration: none;
+  }
+}

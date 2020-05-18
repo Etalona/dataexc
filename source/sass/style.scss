@@ -7,6 +7,10 @@ body {
   color: #ffffff;
   margin: 0;
   background-image: url("../img/logins_background.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .visually-hidden {
   position: absolute !important;
@@ -22,8 +26,6 @@ body {
   width: 410px;
   background-color: #0052cc;
   padding: 65px 45px;
-  margin: 0 auto;
-  margin-top: 290px;
   border-radius: 15px;
 }
 .logo-content {
